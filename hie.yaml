@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "recipe-compiler:lib"
+
+    - path: "./app/Main.hs"
+      component: "recipe-compiler:exe:recipe-compiler-exe"
+
+    - path: "./app/Paths_haskell_toy_example.hs"
+      component: "recipe-compiler:exe:recipe-compiler-exe"
+
+    - path: "./test"
+      component: "recipe-compiler:test:recipe-compiler-test"
+
