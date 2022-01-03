@@ -1,5 +1,7 @@
 # recipe-compiler
 
+[![CI](https://github.com/alessandrocandolini/recipe-compiler/actions/workflows/ci.yml/badge.svg)](https://github.com/alessandrocandolini/recipe-compiler/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/alessandrocandolini/recipe-compiler/branch/main/graph/badge.svg?token=VFAMXI4W1W)](https://codecov.io/gh/alessandrocandolini/recipe-compiler)
+
 ## How to build and run locally
 
 The project uses the [Haskell tool stack](https://docs.haskellstack.org/en/stable/README/).
