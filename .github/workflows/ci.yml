@@ -38,7 +38,9 @@ jobs:
         key: ${{ runner.os }}-${{ matrix.ghc }}-stack
 
     - uses: actions/checkout@v2
-      name: Run tests
+      name: Checkout the repo 
+        
+    - name: Run tests
       run: |
         stack test --coverage
 
