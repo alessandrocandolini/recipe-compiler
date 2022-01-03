@@ -6,9 +6,8 @@ cradle:
     - path: "./app/Main.hs"
       component: "recipe-compiler:exe:recipe-compiler-exe"
 
-    - path: "./app/Paths_haskell_toy_example.hs"
+    - path: "./app/Paths_recipe_compiler.hs"
       component: "recipe-compiler:exe:recipe-compiler-exe"
 
     - path: "./test"
       component: "recipe-compiler:test:recipe-compiler-test"
-
