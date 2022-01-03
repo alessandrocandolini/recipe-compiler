@@ -38,8 +38,8 @@ jobs:
         key: ${{ runner.os }}-${{ matrix.ghc }}-stack
 
     - uses: actions/checkout@v2
-      name: Checkout the repo 
-        
+      name: Checkout the repo
+
     - name: Run tests
       run: |
         stack test --coverage
@@ -47,7 +47,7 @@ jobs:
     - name: Generate coverage report
       uses: 8c6794b6/hpc-codecov-action@v2
       with:
-        target: stack:haskell-parser-combinators-test
+        target: stack:recipe-compiler-test
         out: ./codecov.json
         verbose: true
 
